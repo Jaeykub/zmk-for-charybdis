@@ -34,7 +34,7 @@
 &kp MINUS  &kp SQT        &kp COMMA  &kp PERIOD        &kp P           &kp Y        &kp F                     &kp G        &kp C   &kp R   &kp L     &kp SLASH
 &kp TAB    &kp A          &kp O      &kp E             &kp U           &kp I        &kp D                     &kp H        &kp T   &kp N   &kp S     &kp ENTER
 &mo 1      &kp SEMICOLON  &kp Q      &kp J             &kp K           &kp X        &kp B                     &kp M        &kp W   &kp V   &kp Z     &kp EQUAL
-                                     &kp LA(LEFT_ALT)  &kp LEFT_SHIFT  &kp LCTRL    &kp backspace  &hold_or_tap RIGHT_SHIFT SPACE
+                                     &kp LA(LEFT_ALT)  &kp LEFT_SHIFT  &kp LCTRL    &kp BACKSPACE  &hold_or_tap RIGHT_SHIFT SPACE
                                                        &mkp MB1        &mkp MB2     &hold_or_tap LALT ESCAPE
             >;
 
@@ -46,7 +46,7 @@
 &kp F11    &kp F1  &kp F2  &kp F3  &kp F4    &kp F5      &kp F6  &kp F7     &kp F8    &kp F9         &kp F10   &kp F12
 &kp MINUS  &trans  &trans  &trans  &trans    &trans      &trans  &kp PG_UP  &kp UP    &kp PAGE_DOWN  &kp HOME  &kp NON_US_BACKSLASH
 &trans     &trans  &trans  &trans  &trans    &trans      &trans  &kp LEFT   &kp DOWN  &kp RIGHT      &kp END   &kp INSERT
-&trans     &trans  &trans  &trans  &trans    &trans      &trans  &trans     &trans    &trans         &trans    &trans
+&trans     &trans  &trans  &trans  &trans    &trans      &trans  &trans     &trans    &DELETE         &trans    &trans
                            &trans  &trans    &trans      &trans  &trans
                                    &mkp MB1  &mkp MB2    &trans
             >;
