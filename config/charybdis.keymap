@@ -35,7 +35,7 @@
 &kp TAB    &kp A          &kp O      &kp E             &kp U           &kp I          &kp D                     &kp H        &kp T   &kp N   &kp S     &kp ENTER
 &mo 1      &kp SEMICOLON  &kp Q      &kp J             &kp K           &kp X          &kp B                     &kp M        &kp W   &kp V   &kp Z     &kp EQUAL
                                      &kp LA(LEFT_ALT)  &hold_or_tap LEFT_SHIFT SPACE  &kp LCTRL    &hold_or_tap LALT ESCAPE  &hold_or_tap RIGHT_SHIFT SPACE
-                                                       &kp LEFT_WIN    &mo 2     &kp DELETE
+                                                       &kp BACKSPACE    &mo 2     &kp DELETE
             >;
 
             trackball-bindings = <&tsl>;
