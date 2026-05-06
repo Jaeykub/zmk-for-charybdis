@@ -32,12 +32,13 @@
             bindings = <
 &kp TILDE  &kp N1         &kp N2     &kp N3            &kp N4          &kp N5       &kp N6                    &kp N7                          &kp N8  &kp N9  &kp N0    &kp LEFT_WIN
 &kp MINUS  &kp SQT        &kp COMMA  &kp PERIOD        &kp P           &kp Y        &kp F                     &kp G                           &kp C   &kp R   &kp L     &kp SLASH
-&kp TAB    &kp A          &kp O      &kp E             &kp U           &kp I        &kp D                     &kp J                           &kp K   &kp L   &kp SEMI  &kp ENTER
+&kp TAB    &kp A          &kp O      &kp E             &kp U           &kp I        &kp D                     &kp H                           &kp T   &kp N   &kp S     &kp ENTER
 &mo 1      &kp SEMICOLON  &kp Q      &kp J             &kp K           &kp X        &kp B                     &kp M                           &kp W   &kp V   &kp Z     &kp EQUAL
                                      &kp LA(LEFT_ALT)  &kp LEFT_SHIFT  &kp LCTRL    &hold_or_tap LALT ESCAPE  &hold_or_tap RIGHT_SHIFT SPACE
                                                        &mkp MB1        &mkp MB2     &kp ENTER
             >;
 
+            trackball-bindings = <&tmv_coarse>;
         };
 
         layer_1 {
@@ -50,16 +51,17 @@
                                    &mkp MB1  &mkp MB2    &trans
             >;
 
+            trackball-bindings = <&tsl>;
         };
 
         layer_2 {
             bindings = <
-&kp F12        &kp F1      &kp F2      &kp F3         &kp F4         &kp F5          &kp F6             &kp F7         &kp F8    &kp F9     &kp F10  &kp F11
-&kp LS(GRAVE)  &kp LS(N1)  &kp LS(N2)  &kp LS(N3)     &kp LS(N4)     &kp LS(LBKT)    &kp LS(RBKT)       &none          &none     &none      &none    &none
-&kp LSHFT      &kp LS(N5)  &kp LS(N6)  &kp LS(N7)     &kp LS(N8)     &none           &kp LS(BACKSLASH)  &none          &kp UP    &none      &none    &none
-&kp LCTRL      &kp LS(N9)  &kp LS(N0)  &kp LS(MINUS)  &kp LS(EQUAL)  &none           &none              &kp LEFT       &kp DOWN  &kp RIGHT  &none    &none
-                                       &kp LEFT_WIN   &kp SPACE      &kp ENTER       &trans             &kp RIGHT_ALT
-                                                      &none          &none           &none
+&trans     &trans  &trans  &trans  &trans    &trans      &trans  &trans     &trans    &trans         &trans    &trans
+&trans     &trans  &trans  &trans  &trans    &trans      &trans  &trans     &trans    &trans         &trans    &trans
+&trans     &trans  &trans  &trans  &trans    &trans      &trans  &trans     &trans    &trans         &trans    &trans
+&trans     &trans  &trans  &trans  &trans    &trans      &trans  &trans     &trans    &trans         &trans    &trans
+                           &trans  &trans    &trans      &trans  &trans
+				   &none     &none       &none
             >;
         };
 
@@ -76,12 +78,12 @@
 
         layer_4 {
             bindings = <
-&none        &none         &none         &none         &none      &none         &none       &none      &none         &none         &none         &none
-&none        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none      &bt BT_CLR    &bt BT_CLR  &none      &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &none
-&none        &none         &none         &mkp MCLK     &none      &none         &none       &none      &mkp MCLK     &none         &none         &none
-&bootloader  &none         &mkp RCLK     &trans        &mkp LCLK  &none         &none       &mkp LCLK  &trans        &mkp RCLK     &none         &bootloader
-                                         &none         &mkp LCLK  &mkp RCLK     &mkp RCLK   &mkp LCLK
-                                                       &none      &none         &none
+&trans     &trans  &trans  &trans  &trans    &trans      &trans  &trans     &trans    &trans         &trans    &trans
+&trans     &trans  &trans  &trans  &trans    &trans      &trans  &trans     &trans    &trans         &trans    &trans
+&trans     &trans  &trans  &trans  &trans    &trans      &trans  &trans     &trans    &trans         &trans    &trans
+&trans     &trans  &trans  &trans  &trans    &trans      &trans  &trans     &trans    &trans         &trans    &trans
+                           &trans  &trans    &trans      &trans  &trans
+				   &none     &none       &none
             >;
         };
     };
