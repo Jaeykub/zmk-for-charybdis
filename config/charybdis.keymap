@@ -43,7 +43,7 @@
 
         layer_1 {
             bindings = <
-&kp F11    &kp F1  &kp F2  &kp F3  &kp F4    &kp F5                  &kp F6                 &kp F7     &kp F8    &kp F9         &kp F10   &kp F12
+&trans     &trans  &trans  &trans  &trans    &trans                  &trans                 &trans     &trans    &trans         &trans    &trans
 &kp MINUS  &trans  &trans  &trans  &trans    &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp PG_UP  &kp UP    &kp PAGE_DOWN  &kp HOME  &kp NON_US_BACKSLASH
 &trans     &trans  &trans  &trans  &trans    &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp LEFT   &kp DOWN  &kp RIGHT      &kp END   &kp INSERT
 &trans     &trans  &trans  &trans  &trans    &kp LEFT_BRACE          &kp RIGHT_BRACE        &trans     &trans    &kp DELETE     &trans    &trans
@@ -56,7 +56,7 @@
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&kp F11 &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &kp F6  &kp F7  &kp F8  &kp F9  &kp F10 &kp F12
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
