@@ -39,7 +39,6 @@
                                                        &mo 2                          &mo 3        &kp BACKSPACE
             >;
 
-            trackball-bindings = <&tsl>;
         };
 
         layer_1 {
@@ -52,7 +51,7 @@
                                    &mkp MB1  &mkp MB2                &trans
             >;
 
-            trackball-bindings = <&tmv_coarse>;
+            trackball-bindings = <&tsl>;
         };
 
         layer_2 {
@@ -64,6 +63,8 @@
                          &trans  &trans  &trans    &trans  &trans
                                  &none   &none     &none
             >;
+
+            trackball-bindings = <&tmv_coarse>;
         };
 
         Mouse {
